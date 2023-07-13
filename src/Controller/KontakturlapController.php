@@ -16,7 +16,7 @@ class KontakturlapController extends AbstractController
 {
 
     /**
-     *  @Route("/show")
+     *  @Route("/")
      */
     public function show(Environment $twig, Request $request, EntityManagerInterface $entityManager)
     {
