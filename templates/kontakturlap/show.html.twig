@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+{{ form_start(kontakturlap_form) }}
+
+{{ form_widget(kontakturlap_form) }}
+
+<button type="submit">Küldés</button>
+
+{{ form_end(kontakturlap_form) }}
+
+{% endblock %}
